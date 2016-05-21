@@ -1,0 +1,8 @@
+submitted-assignments/ds_hw_1_20143333.c:3:1: error: unknown type name 'Compile'
+Compile error
+^
+submitted-assignments/ds_hw_1_20143333.c:3:14: error: expected ';' after top level declarator
+Compile error
+             ^
+             ;
+2 errors generated.
