@@ -1,0 +1,56 @@
+success : ds_hw_1_20091331.c
+success : ds_hw_1_20110543.c
+fail - wrong answer ds_hw_1_20110800.c
+success : ds_hw_1_20111363.c
+success : ds_hw_1_20111395.c
+fail - wrong answer ds_hw_1_20111457.c
+success : ds_hw_1_20111627.c
+success : ds_hw_1_20111649.c
+success : ds_hw_1_20120085.c
+fail - wrong answer ds_hw_1_20121390.c
+fail - wrong answer ds_hw_1_20121607.c
+success : ds_hw_1_20121651.c
+success : ds_hw_1_20131521.c
+success : ds_hw_1_20131529.c
+fail - wrong answer ds_hw_1_20131533.c
+success : ds_hw_1_20131547.c
+success : ds_hw_1_20131551.c
+success : ds_hw_1_20131567.c
+fail - wrong answer ds_hw_1_20131581.c
+success : ds_hw_1_20131587.c
+success : ds_hw_1_20131607.c
+success : ds_hw_1_20131621.c
+fail - wrong answer ds_hw_1_20140938.c
+success : ds_hw_1_20141509.c
+success : ds_hw_1_20141535.c
+success : ds_hw_1_20141573.c
+success : ds_hw_1_20150833.c
+success : ds_hw_1_20151517.c
+success : ds_hw_1_20151519.c
+success : ds_hw_1_20151535.c
+fail - wrong answer ds_hw_1_20151541.c
+success : ds_hw_1_20151543.c
+fail - wrong answer ds_hw_1_20151551.c
+fail - wrong answer ds_hw_1_20151553.c
+success : ds_hw_1_20151555.c
+success : ds_hw_1_20151559.c
+success : ds_hw_1_20151561.c
+success : ds_hw_1_20151563.c
+success : ds_hw_1_20151565.c
+success : ds_hw_1_20151567.c
+success : ds_hw_1_20151571.c
+success : ds_hw_1_20151573.c
+success : ds_hw_1_20151575.c
+success : ds_hw_1_20151577.c
+success : ds_hw_1_20151579.c
+fail - wrong answer ds_hw_1_20151587.c
+fail - wrong answer ds_hw_1_20151591.c
+success : ds_hw_1_20151603.c
+success : ds_hw_1_20151607.c
+success : ds_hw_1_20151609.c
+success : ds_hw_1_20151615.c
+success : ds_hw_1_20151617.c
+success : ds_hw_1_20151619.c
+success : ds_hw_1_20151621.c
+fail - wrong answer ds_hw_1_20151623.c
+success : ds_hw_1_20151625.c
