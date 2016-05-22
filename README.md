@@ -1,5 +1,5 @@
 # Auto Compile Submitted Assignment
-By Taeseung Lee <!-->(author URL goes here). -->
+By Taeseung Lee
   
 ## Description
 **auto compile program for grading assignments** 
@@ -8,6 +8,7 @@ If there is a compile error or warning, make a file that is composed of error me
 If diff command finds differences between the answer text file and the output file, then make a diff file.
 
 **Cases of Standard Output This program**
+
 Case 1 : If an output of a program is correct, print out a message "student number - fail(compile error)"
 Case 2 : If there is an compile error or warning, print out a message "student number - fail(compile error)"
 Case 3 : If assignment makes a wrong answer, print out a message "student number - fail(wrong answer)"
@@ -28,29 +29,3 @@ Type the command line on your shell.
 ``shell
 	./auto_compile.sh submitted_assignments/*.c
 ``
-	  
-<--	  
-## Information
-
-Screenshots of your application below:
-
-![Screenshot 1](http://placekitten.com/400/300)
-
-![Screenshot 2](http://placekitten.com/400/300)
-
-
-
-### Known Issues
-	
-	If you discover any bugs, feel free to create an issue on GitHub fork and
-	send us a pull request.
-	
-	[Issues List](Github Issues List URL goes here).
--->	
-<--
-## Authors
-	
-	 Your Name (Your Github URL goes here)
-	 Additional Author's name (Their Github URL goes here)
-
--->
