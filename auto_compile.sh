@@ -1,5 +1,4 @@
 #!/bin/bash
-# USE : ./grading.sh c_files/*.c
 # We need three folders :
 # c_files - containing c files
 # output - containing output files(stdout)
@@ -56,7 +55,7 @@ for i in $@; do
 	student_number=${filename:front_format_len:8}
 
 	# relative paths
-	# : c_file - c파일 접근 / output - output file 접근 / answer - answer-접근
+	# : c_file - submitted assignments folder / output - results of stdout  / answer - answer file
 	path_c_file=$assign_dir$filename
 	path_output=$cur_dir"output/"$student_number"-output.txt"
 	path_answer=$cur_dir"answer.txt"
@@ -83,7 +82,9 @@ for i in $@; do
 		continue
 	fi
 
+	# Executing and make an output file
 	./a.out > $path_output
+
 	diff $path_answer $path_output > $path_diff
 
 	# there is no difference -> correct!
