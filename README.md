@@ -2,7 +2,7 @@
 By Taeseung Lee
   
 ## Description
-**auto compile program for grading assignments**<br />
+**Auto compile program for grading assignments**<br />
 This program compiles each c file(submitted assignment) and executes correspoinding a executable file "a.out". After the normal execution, make a output file.<br />
 If there is a compile error or warning, make a file that is composed of error messages.<br />
 If diff command finds differences between the answer text file and the output file, then make a diff file.
@@ -24,7 +24,7 @@ One assumption is formats of all c files is ds_hw_1_20140000.c
 
 ## Usage
 
-Type the command line on your shell.<br />
-``shell
-	./auto_compile.sh submitted_assignments/*.c
+Type this line on your shell.<br />
+``
+./auto_compile.sh submitted_assignments/*.c
 ``
