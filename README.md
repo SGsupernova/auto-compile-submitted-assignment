@@ -7,11 +7,10 @@ This program compiles each c file(submitted assignment) and executes correspoind
 If there is a compile error or warning, make a file that is composed of error messages.
 If diff command finds differences between the answer text file and the output file, then make a diff file.
 
-**Cases of Standard Output This program**
-
-Case 1 : If an output of a program is correct, print out a message "student number - fail(compile error)"
-Case 2 : If there is an compile error or warning, print out a message "student number - fail(compile error)"
-Case 3 : If assignment makes a wrong answer, print out a message "student number - fail(wrong answer)"
+**Cases of Standard Output This program**<br />
+Case 1 : If an output of a program is correct, print out a message "student number - fail(compile error)"<br />
+Case 2 : If there is an compile error or warning, print out a message "student number - fail(compile error)"<br />
+Case 3 : If assignment makes a wrong answer, print out a message "student number - fail(wrong answer)"<br />
 
 One assumption is formats of all c files is ds_hw_1_20140000.c
 
@@ -25,7 +24,7 @@ One assumption is formats of all c files is ds_hw_1_20140000.c
 
 ## Usage
 
-Type the command line on your shell.
+Type the command line on your shell.<br />
 ``shell
 	./auto_compile.sh submitted_assignments/*.c
 ``
