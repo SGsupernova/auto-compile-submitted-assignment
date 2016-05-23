@@ -8,9 +8,10 @@ If there is a compile error or warning, make a file that is composed of error me
 If diff command finds differences between the answer text file and the output file, then make a diff file.
 
 **Cases of Standard Output This program**<br />
-Case 1 : If an output of a program is correct, print out a message "student number - fail(compile error)"<br />
-Case 2 : If there is an compile error or warning, print out a message "student number - fail(compile error)"<br />
-Case 3 : If assignment makes a wrong answer, print out a message "student number - fail(wrong answer)"<br />
+Case 1 : If an output of a program match an answer, print out a message "student number - success"
+Case 2 : If an output of a program dose not match the answer, print out a message "student number - fail(compile error)"<br />
+Case 3 : If there is an compile error or warning, print out a message "student number - fail(compile error)"<br />
+Case 4 : If assignment makes a wrong answer, print out a message "student number - fail(wrong answer)"<br />
 
 One assumption is formats of all c files is ds_hw_1_20140000.c
 
