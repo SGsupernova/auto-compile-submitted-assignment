@@ -1,4 +1,4 @@
-# Auto Compile Submitted Assignment
+# auto-check-assignment
 By Taeseung Lee
   
 ## Description
