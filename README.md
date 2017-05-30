@@ -33,5 +33,7 @@ Type this line on your shell.<br />
 ## TODO list
 * [x] Arrange directory structure
 * [ ] When I exectue python script, make a "src/build"-directory for storing products.
+* [ ] Let __init__.py init files and check whether there is an error.
+* [ ] Enable an user to set a path about executable file(a.out)
 * [ ] Remake README.md
 
