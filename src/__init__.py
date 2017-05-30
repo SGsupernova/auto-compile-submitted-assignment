@@ -3,7 +3,9 @@
 # import sys
 # import os
 
-##### error check file
-# for 
+print('------  Start __init__.py  ------')
+print('------  End   __init__.py  ------')
+
+# error check file
 # command_line = "mkdir -p " + config.setting['input_file']
 # os.system(command_line)

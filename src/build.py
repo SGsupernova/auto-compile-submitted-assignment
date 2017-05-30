@@ -3,20 +3,26 @@ import config
 
 
 def build_file(path):
-    filename = os.path.basename(str(path))
-    command_line = dict(
-            build=config.info['command'] + ' ',
-            execute='./a.out')
+    command_build = config.info['command'] + ' '
+
     # command line that will be executed
-    command_line['build'] += filename + " 2>&1"
+    command_build += path
+    command_build += " 2>&1"
+
+    print("build_file :" + command_build)
+    os.popen(command_build)  # execute command line # TODO: error check
     # TODO: error check
-    os.popen(command_line['build'])  # execute command line
+    os.popen(command_build)
 
-    command_line['execute'] += " < " + config.info['input_file'] + " > "
-    command_line['execute'] += config.info['output_format'] + filename
 
-    # TODO: error check
-    os.popen()
+def execute_file(path):
+    filename = os.path.basename(str(path))
+    command_execute = './a.out'
+    command_execute += " < " + config.file_info['input_file']
+    command_execute += " > " + config.file_info['output_format'] + filename
 
+    print("execute_file: " + command_execute)
+    os.popen(command_execute)
+    # TODO: diff
     # clear
     os.system("rm a.out")
