@@ -1,6 +1,0 @@
-20140000 - fail(wrong answer)
-20141111 - fail(wrong answer)
-20141570 - success
-20142222 - fail(wrong answer)
-compile error or warning occurs - 20143333
-20143333 - fail(compile error)

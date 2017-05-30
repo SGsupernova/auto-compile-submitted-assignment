@@ -1,6 +1,6 @@
 # auto-check-assignment
 By Taeseung Lee
-  
+ 
 ## Description
 **Auto compile program for grading assignments**<br />
 This program compiles each c file(submitted assignment) and executes correspoinding a executable file "a.out". After the normal execution, make a output file.<br />
@@ -29,3 +29,9 @@ Type this line on your shell.<br />
 ``
 ./auto_compile.sh submitted_assignments/*.c
 ``
+
+## TODO list
+* [x] Arrange directory structure
+* [ ] When I exectue python script, make a "src/build"-directory for storing products.
+* [ ] Remake README.md
+
